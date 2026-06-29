@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YC8 Automation — KI-Workflows für KMUs</title>
+  <meta name="description" content="YC8 Automation verbindet bestehende Systeme mit KI-Agents, MCP-Servern und Workflows — produktionsreif und DSGVO-konform.">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --text: #e8edf4;
+      --muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-soft: rgba(59, 130, 246, 0.15);
+      --border: rgba(255, 255, 255, 0.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 5vw, 2.5rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .lead {
+      font-size: 1.125rem;
+      color: var(--muted);
+      max-width: 36em;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    li {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+    }
+
+    li strong {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    li span {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .products li {
+      border-left: 3px solid var(--accent);
+    }
+
+    .cta {
+      margin-top: 3rem;
+      padding: 1.5rem;
+      background: var(--accent-soft);
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .cta p {
+      color: var(--muted);
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff !important;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none !important;
+    }
+
+    .btn:hover {
+      filter: brightness(1.1);
+      text-decoration: none !important;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">YC8 Automation</div>
+      <h1>KI-Workflows für KMUs — ohne Experimente, mit Betrieb.</h1>
+      <p class="lead">
+        Wir verbinden Ihre bestehenden Systeme mit KI-Agents, MCP-Servern und Automatisierung —
+        produktionsreif, DSGVO-konform, messbar in Wochen statt Monaten.
+      </p>
+    </header>
+
+    <section>
+      <h2>Was wir liefern</h2>
+      <ul>
+        <li>
+          <strong>Analyse</strong>
+          <span>Wo geht die meiste Zeit verloren? Priorisierte Quick Wins mit ROI-Schätzung.</span>
+        </li>
+        <li>
+          <strong>Quick Wins</strong>
+          <span>Ein Workflow live in 1–2 Wochen — Anfrage-Intake, Protokolle, Koordination.</span>
+        </li>
+        <li>
+          <strong>Betrieb</strong>
+          <span>Monitoring, Updates und Anpassungen als Retainer — kein Demo-Projekt.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Start-Nische</h2>
+      <ul>
+        <li>
+          <strong>Öltank-Sanierung (DACH)</strong>
+          <span>Viele Anfragen, viel Dokumentation, regulatorischer Druck — hoher ROI pro gesparter Stunde.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Produkte</h2>
+      <ul class="products">
+        <li>
+          <strong>FieldSight</strong>
+          <span>WhatsApp-Firmenassistent für Anfragen und Vor-Ort-Kommunikation.</span>
+        </li>
+        <li>
+          <strong>FieldSight Pro</strong>
+          <span>Multi-Vertical Feldassistent mit Vision, ASR und domänenspezifischen MCP-Tools.</span>
+        </li>
+      </ul>
+    </section>
+
+    <div class="cta">
+      <p>Interesse an Audit oder Quick Win? Schreiben Sie uns.</p>
+      <a class="btn" href="mailto:info@yc8-automation.de">Kontakt aufnehmen</a>
+    </div>
+
+    <footer>
+      <a href="https://github.com/jaseen67/yc8-automation">Technische Plattform auf GitHub</a>
+      · © YC8 Automation
+    </footer>
+  </div>
+</body>
+</html>
