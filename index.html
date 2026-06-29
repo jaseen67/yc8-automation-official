@@ -3,213 +3,223 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YC8 Automation — KI-Workflows für KMUs</title>
-  <meta name="description" content="YC8 Automation verbindet bestehende Systeme mit KI-Agents, MCP-Servern und Workflows — produktionsreif und DSGVO-konform.">
-  <style>
-    :root {
-      --bg: #0f1419;
-      --surface: #1a2332;
-      --text: #e8edf4;
-      --muted: #8b9cb3;
-      --accent: #3b82f6;
-      --accent-soft: rgba(59, 130, 246, 0.15);
-      --border: rgba(255, 255, 255, 0.08);
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      min-height: 100vh;
-    }
-
-    .wrap {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
-    }
-
-    header {
-      margin-bottom: 3rem;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .logo {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      font-size: clamp(1.75rem, 5vw, 2.5rem);
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 1rem;
-    }
-
-    .lead {
-      font-size: 1.125rem;
-      color: var(--muted);
-      max-width: 36em;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
-    }
-
-    h2 {
-      font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-
-    ul {
-      list-style: none;
-      display: grid;
-      gap: 0.75rem;
-    }
-
-    li {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.25rem;
-    }
-
-    li strong {
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-
-    li span {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .products li {
-      border-left: 3px solid var(--accent);
-    }
-
-    .cta {
-      margin-top: 3rem;
-      padding: 1.5rem;
-      background: var(--accent-soft);
-      border: 1px solid rgba(59, 130, 246, 0.35);
-      border-radius: 12px;
-      text-align: center;
-    }
-
-    .cta p {
-      color: var(--muted);
-      margin-bottom: 1rem;
-      font-size: 0.95rem;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover { text-decoration: underline; }
-
-    .btn {
-      display: inline-block;
-      background: var(--accent);
-      color: #fff !important;
-      padding: 0.65rem 1.25rem;
-      border-radius: 8px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none !important;
-    }
-
-    .btn:hover {
-      filter: brightness(1.1);
-      text-decoration: none !important;
-    }
-
-    footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-      color: var(--muted);
-      text-align: center;
-    }
-  </style>
+  <title>YC8 Automation — KI-Automatisierung für den Mittelstand</title>
+  <meta name="description" content="YC8 Automation integriert KI und Automatisierung in bestehende Prozesse — von der Potenzialanalyse bis zum laufenden Betrieb. Schwerpunkt Handwerk und technische Dienstleistung.">
+  <meta property="og:title" content="YC8 Automation">
+  <meta property="og:description" content="KI-Automatisierung für den Mittelstand — planbar umgesetzt, dauerhaft betrieben.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jaseen67.github.io/yc8-automation-official/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">YC8 Automation</div>
-      <h1>KI-Workflows für KMUs — ohne Experimente, mit Betrieb.</h1>
-      <p class="lead">
-        Wir verbinden Ihre bestehenden Systeme mit KI-Agents, MCP-Servern und Automatisierung —
-        produktionsreif, DSGVO-konform, messbar in Wochen statt Monaten.
-      </p>
-    </header>
-
-    <section>
-      <h2>Was wir liefern</h2>
-      <ul>
-        <li>
-          <strong>Analyse</strong>
-          <span>Wo geht die meiste Zeit verloren? Priorisierte Quick Wins mit ROI-Schätzung.</span>
-        </li>
-        <li>
-          <strong>Quick Wins</strong>
-          <span>Ein Workflow live in 1–2 Wochen — Anfrage-Intake, Protokolle, Koordination.</span>
-        </li>
-        <li>
-          <strong>Betrieb</strong>
-          <span>Monitoring, Updates und Anpassungen als Retainer — kein Demo-Projekt.</span>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Start-Nische</h2>
-      <ul>
-        <li>
-          <strong>Öltank-Sanierung (DACH)</strong>
-          <span>Viele Anfragen, viel Dokumentation, regulatorischer Druck — hoher ROI pro gesparter Stunde.</span>
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Produkte</h2>
-      <ul class="products">
-        <li>
-          <strong>FieldSight</strong>
-          <span>WhatsApp-Firmenassistent für Anfragen und Vor-Ort-Kommunikation.</span>
-        </li>
-        <li>
-          <strong>FieldSight Pro</strong>
-          <span>Multi-Vertical Feldassistent mit Vision, ASR und domänenspezifischen MCP-Tools.</span>
-        </li>
-      </ul>
-    </section>
-
-    <div class="cta">
-      <p>Interesse an Audit oder Quick Win? Schreiben Sie uns.</p>
-      <a class="btn" href="mailto:info@yc8-automation.de">Kontakt aufnehmen</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-name">YC8 Automation</span>
+        <span class="brand-tag">KI · Workflows · Integration</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Menü" onclick="document.querySelector('.nav').classList.toggle('open')">Menü</button>
+      <nav>
+        <ul class="nav">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#produkte">Produkte</a></li>
+          <li><a href="#ablauf">Ablauf</a></li>
+          <li><a class="nav-cta" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <footer>
-      <a href="https://github.com/jaseen67/yc8-automation">Technische Plattform auf GitHub</a>
-      · © YC8 Automation
-    </footer>
-  </div>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Automatisierung &amp; KI für KMUs</span>
+          <h1>KI in Ihre Prozesse integrieren — ohne IT-Großprojekt</h1>
+          <p class="hero-lead">
+            YC8 Automation unterstützt mittelständische Betriebe dabei, wiederkehrende Abläufe
+            mit KI und Workflow-Automatisierung zu entlasten. Von der Potenzialanalyse bis zum
+            produktiven Betrieb — datenschutzkonform und an Ihre bestehenden Systeme angebunden.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#kontakt">Erstgespräch vereinbaren</a>
+            <a class="btn btn-secondary" href="#leistungen">Leistungen ansehen</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Kernversprechen">
+          <h2>Warum YC8 Automation</h2>
+          <ul class="stat-list">
+            <li>
+              <strong>Branchenfokus</strong>
+              <span>Handwerk und technische Dienstleistung — keine generische KI-Beratung.</span>
+            </li>
+            <li>
+              <strong>Bestehende Systeme</strong>
+              <span>E-Mail, Kalender, Dokumente und CRM bleiben — wir ergänzen intelligent.</span>
+            </li>
+            <li>
+              <strong>EU-Betrieb</strong>
+              <span>Hosting in europäischen Rechenzentren, datenschutzkonforme Architektur.</span>
+            </li>
+            <li>
+              <strong>Erfahrung</strong>
+              <span>Über 25 Jahre in Enterprise-Software, Cloud und DevOps.</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="leistungen">
+      <div class="container">
+        <div class="section-header">
+          <h2>Leistungen</h2>
+          <p>
+            Drei klar abgegrenzte Stufen — von der Orientierung bis zum dauerhaften Betrieb.
+            Keine Pilotprojekte ohne Anschluss, keine Black Box ohne Dokumentation.
+          </p>
+        </div>
+        <div class="card-grid cols-3">
+          <article class="card">
+            <span class="card-num">01</span>
+            <h3>Potenzialanalyse</h3>
+            <p>
+              Strukturierte Aufnahme Ihrer Prozesse, IT-Landschaft und Engpässe.
+              Ergebnis: priorisierte Maßnahmen mit Nutzenabschätzung und konkretem Umsetzungsvorschlag.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-num">02</span>
+            <h3>Erste Automatisierung</h3>
+            <p>
+              Ein Workflow produktiv in ein bis zwei Wochen — z.&nbsp;B. Kundenanfragen,
+              Vor-Ort-Protokolle, Angebotskoordination oder Notfall-Eskalation.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-num">03</span>
+            <h3>Betrieb &amp; Weiterentwicklung</h3>
+            <p>
+              Monitoring, Updates und Anpassungen im Rahmen eines Betreuungsvertrags.
+              Sie konzentrieren sich auf Ihr Geschäft — wir halten die Automatisierung stabil.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Einstiegsbranche</h2>
+          <p>
+            Start mit vertiefter Domänenkenntnis — ausbaubar auf weitere Branchen und Produkte.
+          </p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card">
+            <h3>Öltank-Sanierung (DACH)</h3>
+            <p>
+              Hohes Anfragevolumen, umfangreiche Dokumentation und strenge regulatorische Anforderungen.
+              Automatisierung entlastet Büro und Außendienst dort, wo jede eingesparte Stunde zählt.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Elektro &amp; technischer Außendienst</h3>
+            <p>
+              Normen, Prüfprotokolle und Kundenkommunikation vor Ort — weitere Verticals
+              sind über unsere Plattform FieldSight Pro abgebildet.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="produkte">
+      <div class="container">
+        <div class="section-header">
+          <h2>Produkte</h2>
+          <p>
+            Eigene Softwareplattform für WhatsApp-gestützte Feldassistenz — erweiterbar
+            und betreibbar in Ihrer Infrastruktur oder in der Cloud.
+          </p>
+        </div>
+        <div class="card-grid cols-2">
+          <article class="card product-card">
+            <h3>FieldSight</h3>
+            <p>
+              WhatsApp-Firmen-Assistent für Mitarbeiter im Außendienst: Text und Bilder werden
+              ausgewertet, Antworten erfolgen im Unternehmenskontext — schnell und nachvollziehbar.
+            </p>
+          </article>
+          <article class="card product-card">
+            <h3>FieldSight Pro</h3>
+            <p>
+              Erweiterte Feldplattform für mehrere Branchen: Bilderkennung, Spracheingabe,
+              Wissensdatenbank und angebundene Fachwerkzeuge für domänenspezifische Anfragen.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ablauf">
+      <div class="container">
+        <div class="section-header">
+          <h2>So arbeiten wir</h2>
+          <p>Transparent, in überschaubaren Schritten — mit klarem Ergebnis nach jeder Phase.</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3>Kennenlernen</h3>
+            <p>Unverbindliches Gespräch: Ziele, Prozesse, bestehende Tools und realistischer Scope.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3>Analyse &amp; Konzept</h3>
+            <p>Priorisierung der größten Hebel, Festlegung des ersten Workflows, Angebot mit festem Rahmen.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3>Umsetzung &amp; Betrieb</h3>
+            <p>Produktiver Go-Live, Einweisung, Dokumentation — optional laufende Betreuung.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="kontakt">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Erstgespräch vereinbaren</h2>
+          <p>
+            Sie möchten prüfen, ob KI-Automatisierung bei Ihnen Sinn ergibt?
+            Schreiben Sie uns — wir melden uns zeitnah mit Terminvorschlägen.
+          </p>
+          <a class="btn btn-primary" href="mailto:info@yc8-automation.de?subject=Anfrage%20YC8%20Automation">info@yc8-automation.de</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <strong>YC8 Automation</strong>
+        <p>KI-Automatisierung und intelligente Workflows für den Mittelstand.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="https://github.com/jaseen67/yc8-automation" rel="noopener">Open Source</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 YC8 Automation · Yasin Carkci · Waldkirch</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,17 +1,31 @@
-# YC8 Automation — Official
+# YC8 Automation — Official Site
 
-Simple presentation site for [YC8 Automation](https://github.com/jaseen67/yc8-automation).
+Professionelle Präsenzseite für [YC8 Automation](https://github.com/jaseen67/yc8-automation).
 
-## GitHub Pages aktivieren
+**Live:** https://jaseen67.github.io/yc8-automation-official/
 
-**Einmalig** im Repo auf GitHub:
+## Struktur
 
-1. **Settings** → **Pages**
-2. **Build and deployment** → **Source:** `GitHub Actions`
-3. Nach dem nächsten Push auf `main` läuft der Workflow *Deploy GitHub Pages* automatisch.
+```
+index.html          Startseite
+impressum.html      Impressum (DDG)
+datenschutz.html    Datenschutzerklärung
+assets/style.css    Gemeinsames Layout
+```
 
-URL (nach 1–2 Min.): **https://jaseen67.github.io/yc8-automation-official/**
+## GitHub Pages
 
-Alternativ ohne Actions: Source = *Deploy from a branch*, Branch `main`, Folder `/ (root)`.
+1. **Settings** → **Pages** → Source: **GitHub Actions** (oder Branch `main`, Root)
+2. Push auf `main` → Deployment nach 1–2 Minuten
 
-Lokal: `index.html` im Browser öffnen.
+## Lokal
+
+Statische Dateien — `index.html` im Browser öffnen oder:
+
+```bash
+python3 -m http.server 8080
+```
+
+## Kontakt-E-Mail
+
+`info@yc8-automation.de` sollte auf ein erreichbares Postfach weiterleiten (Domain oder Weiterleitung einrichten).
